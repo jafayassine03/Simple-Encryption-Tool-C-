@@ -29,9 +29,8 @@ This is a simple way to understand how basic encryption works.
 
 🧠 Beginner-friendly code
 
-🛠️ Technologies Used
+✅ Encryption + Decryption
 
-C Programming Language
 
 🚀 Possible Improvements
 
