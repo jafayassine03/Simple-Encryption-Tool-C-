@@ -33,33 +33,6 @@ This is a simple way to understand how basic encryption works.
 
 C Programming Language
 
-Standard libraries:
-
-stdio.h
-
-string.h
-
-💻 Example Usage
-🔐 Simple Encryption Tool
-
-Enter a message: hello
-Enter the encryption key (number): 3
-
-Encrypted message: khoor
-🧠 Concepts Practiced
-
-This project helps beginners learn:
-
-Character arrays
-
-String handling
-
-Loops (for)
-
-User input (fgets, scanf)
-
-Basic encryption logic
-
 🚀 Possible Improvements
 
 Some features you could add:
