@@ -6,6 +6,8 @@ int main() {
     int key;
     int choice;
     int i;
+    char save;
+    FILE *file;
 
     printf("=== Simple Encryption Tool ===\n");
     printf("1. Encrypt Message\n");
@@ -13,7 +15,7 @@ int main() {
 
     printf("Choose an option: ");
     scanf("%d", &choice);
-    getchar(); 
+    getchar();
 
     printf("Enter a message: ");
     fgets(message, sizeof(message), stdin);
@@ -35,6 +37,24 @@ int main() {
     }
     else {
         printf("Invalid choice.\n");
+        return 0;
+    }
+
+    printf("\nDo you want to save the result to a file? (y/n): ");
+    scanf(" %c", &save);
+
+    if(save == 'y' || save == 'Y') {
+        file = fopen("result.txt", "w");
+
+        if(file == NULL) {
+            printf("Error opening file.\n");
+            return 1;
+        }
+
+        fprintf(file, "%s", message);
+        fclose(file);
+
+        printf("Message saved to result.txt\n");
     }
 
     return 0;
