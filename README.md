@@ -19,17 +19,15 @@ This is a simple way to understand how basic encryption works.
 
 ⚙️ Features
 
-🔐 Encrypts text using a simple Caesar Cipher
+Encrypt message
 
-📥 User input for message and key
+Decrypt message
 
-🔁 Uses loops to process each character
+Uses a key (number)
 
-💻 Runs directly in the terminal
+Save result to a file
 
-🧠 Beginner-friendly code
-
-✅ Encryption + Decryption
+Beginner-friendly code
 
 
 🚀 Possible Improvements
