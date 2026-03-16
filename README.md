@@ -19,15 +19,17 @@ This is a simple way to understand how basic encryption works.
 
 ⚙️ Features
 
-Encrypt message
+Encrypt messages – easily encrypt any text using a numeric key.
 
-Decrypt message
+Decrypt messages – decrypt previously encrypted text using the same key.
 
-Uses a key (number)
+Custom numeric key – the key can be any number you choose.
 
-Save result to a file
+Save results to a file – optionally save encrypted or decrypted messages to a filename you choose.
 
-Beginner-friendly code
+Multiple messages support – process multiple messages without restarting the program.
+
+Beginner-friendly code – simple and easy to understand for learning C programming.
 
 
 🚀 Possible Improvements
