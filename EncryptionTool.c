@@ -2,6 +2,19 @@
 #include <string.h>
 
 int main() {
+    char password[20];
+    char correctPassword[] = "1234";
+
+    printf("Enter password to access the tool: ");
+    scanf("%s", password);
+
+    if(strcmp(password, correctPassword) != 0) {
+        printf("Access denied!\n");
+        return 0;
+    }
+
+    printf("Access granted!\n\n");
+
     char message[200];
     int key;
     int choice;
