@@ -1,59 +1,87 @@
 🔐 Simple Encryption Tool (C)
 
-A beginner-friendly encryption program written in C that uses a basic Caesar Cipher to encrypt messages.
-This project demonstrates simple string manipulation, loops, and basic encryption logic using the C programming language.
+
+Default Password: 1234 (change in code if desired)
+
+   
+A beginner-friendly encryption program written in C that uses a basic Caesar Cipher to encrypt and decrypt messages. This project demonstrates simple string manipulation, loops, and basic encryption logic in the C programming language.
 
 📌 Project Overview
 
-The program asks the user to:
+The program allows the user to:
 
 Enter a message
 
 Enter an encryption key (a number)
 
-The program then shifts each character in the message by the key value
+Encrypt the message using a Caesar cipher
 
-Finally, it prints the encrypted message
+Decrypt messages with the same key
 
-This is a simple way to understand how basic encryption works.
+Save encrypted or decrypted messages to a file
+
+View saved files
+
+Before accessing the tool, users are required to enter a password to ensure restricted access.
 
 ⚙️ Features
 
-🔐 Password protection – restrict access to the program
+🔐 Password Protection – restrict access to the program (default password: 1234)
 
-🔒 Encrypt messages – convert plain text into encoded text
+🔒 Encrypt Messages – convert plain text into encoded text
 
-🔓 Decrypt messages – restore encrypted text using the same key
+🔓 Decrypt Messages – restore encrypted text using the same key
 
-🔑 Custom numeric key – choose any number as your encryption key
+🔑 Custom Numeric Key – choose any number as your encryption key
 
-💾 Save results to a file – store encrypted/decrypted messages
+💾 Save Results to a File – store encrypted/decrypted messages
 
-📂 View saved files – read messages from existing files
+📂 View Saved Files – read messages from existing files
 
-🔁 Multiple operations – run the program continuously without restarting
+🔁 Multiple Operations – run the program continuously without restarting
 
-🧠 Beginner-friendly code – easy to read and understand
+🧠 Beginner-Friendly Code – easy to read and understand
 
-🚀 Possible Improvements
+🚀 How It Works
 
-Some features you could add:
+Start the program and enter the password.
 
-Decryption option
+Choose an option from the menu: Encrypt, Decrypt, or View saved files.
 
-Ignore spaces and punctuation
+Enter your message and the numeric key.
 
-Encrypt only alphabet letters
+The program processes the message and displays the result.
 
-Save encrypted messages to a file
+Optionally, save the result to a file for later access.
 
-Add a menu system
+Repeat the process or exit the program.
+
+💡 Possible Improvements
+
+Some ideas to make the program even better:
+
+Ignore spaces, punctuation, and numbers while encrypting/decrypting
+
+Encrypt only alphabet letters for cleaner output
+
+Automatically timestamp saved files to avoid overwriting
+
+Add brute-force decryption to recover messages without the key
+
+Mask password input so it is not visible while typing
 
 🎯 Purpose
 
-This project was created for learning and practicing C programming basics while exploring how simple encryption techniques work.
+This project was created for learning and practicing C programming basics while exploring how simple encryption techniques work. It’s a great exercise for understanding:
 
-License
+String manipulation in C
+
+Loops and conditional statements
+
+File input/output operations
+
+Implementing a simple Caesar cipher
+
+⚖️ License
 
 Totally free to use! Play around with it and make it your own 😄
-
